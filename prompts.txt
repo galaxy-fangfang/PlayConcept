@@ -1,0 +1,13 @@
+Select the elements of this list that are "{main_concept}" which is "{subconcepts}":
+
+{cnadidates}
+
+
+--------------
+
+Think of an expression related to the concepts "{concept}" which is "{subconcepts}".
+
+
+-------------
+
+
