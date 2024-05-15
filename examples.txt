@@ -19,5 +19,5 @@ NL code: [["Location,Country,Flag","Water,Liquid,Aquatic","Huge,Wider,Longer"]]
 ---------------------
 
 Solution: Batman
-Code: [[]]
-NL [[]]
+Code: [[3,29,112]]
+NL [["Male,Man,Husband,Masculine","Fictional,Imaginary,Wish","Black"]]
