@@ -11,3 +11,13 @@ NL code: [["Work,Profession,Craft", "Science,Mathematics,Chemistry"],["Science,M
 ---------------------
 
 
+Solution: Ocean
+Code: [[16, 61, 98]]
+NL code: [["Location,Country,Flag","Water,Liquid,Aquatic","Huge,Wider,Longer"]]
+
+
+---------------------
+
+Solution: Batman
+Code: [[]]
+NL [[]]
