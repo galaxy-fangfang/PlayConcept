@@ -5,7 +5,7 @@ NL code: [["Food,Nutrition,Edible"], ["Wildlife,Animal"]]
 ---------------------
 
 Solution: Alchemy
-Code: [[4, 46],[46,44],[105,104,64,66
+Code: [[4, 46],[46,44],[105,104,64,66]]
 NL code: [["Work,Profession,Craft", "Science,Mathematics,Chemistry"],["Science,Mathematics,Chemistry","Religion,Myth,Belief","Idea,Thought,Concept"],["Use,Activate,Verb","Turn,Surround,Cycle","Rock,Mineral,Hard","Metal","Yellow"]]
 
 ---------------------
@@ -20,4 +20,19 @@ NL code: [["Location,Country,Flag","Water,Liquid,Aquatic","Huge,Wider,Longer"]]
 
 Solution: Batman
 Code: [[3,29,112]]
-NL [["Male,Man,Husband,Masculine","Fictional,Imaginary,Wish","Black"]]
+NL code: [["Male,Man,Husband,Masculine","Fictional,Imaginary,Wish","Black"]]
+
+
+_____________________
+
+Solution: Pompeii
+Code: [[16,60,64]]
+NL code: [["Location,Country,Flag","Fire,Burn,Heat","Rock,Mineral,Hard"]]
+
+___________________
+
+Solution: Mars
+Code: [[16,58,91]]
+NL code: [["Location,Country,Flag","Night,Evening,Moon","Sphere"]]
+
+_____________________

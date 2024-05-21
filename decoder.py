@@ -1,3 +1,5 @@
+from decoderutils.utils import base_prompt, base_prompt_with_expression, expression_prompt, get_words, partition_candidates, encode
+
 def decode(code, candidates):
     """Decoder for Concept.
     
@@ -23,5 +25,43 @@ def decode(code, candidates):
     Decoding = Food (main concept) related to an animal (secondary concept).
     Expected concept = 'Honey'
     """
-    concept = ''
-    return concept
+    
+    
+    # Samuel: Here is a suggestion that uses template prompts from the decoderutils/utils.py. Th eidea it to use each color to filter the list and to return the final list after all filters. To help the model, I divide the list into chunks (the size can be set in the function`partition_candidates`). Finally, to account for complex strategy such a discribing a country through its flag, I also add a prompt to ask the model to suggest an expression based on the code.
+    
+    # Retrieve the content from codes.csv file
+    with open("codes.csv") as file:
+        lines = file.read().split("\n")
+    codes = [line.split(",") for line in lines]
+    
+    # Translate the codes into the corresponding words
+    nl_codes = get_words(code, codes)
+    
+    # For each concept (each color), ask OLLAMA to filter the current list of candidates based either on the codes or on the expression
+    for sub_code in nl_codes:
+    
+        # Ask OLLAMA for an expression based on the prompt, e.g. a "flag,country,location" that is "cross" and "red" and "white" and "blue" is the "union jack" or england
+        prompt = expression_prompt.format(f'"{sub_code[0]}"', " and ".join([f'"{elt}"' for elt in sub_code[1:]]))
+        expression = ask_OLLAMA(prompt)
+    
+        ## Get answers based on the code and on the expression
+        filter_candidates = set()
+    
+        # Divide the list of candidates to hep the model
+        for subset_candidates in partition_candidates(candidates, chunk_size=50):
+            # Ask OLLAMA for the answer based on the code
+            prompt = base_prompt.format(f'"{sub_code[0]}"', " and ".join([f'"{elt}"' for elt in sub_code[1:]]),"\n".join(subset_candidates))
+            filter_candidates |= set(ask_OLLAMA(prompt))
+        
+            # Ask OLLAMA for the answer based on the expression
+            prompt = base_prompt_with_expression.format(f'"{expression}"', "\n".join(subset_candidates))
+            filter_candidates |= set(ask_OLLAMA(prompt))
+            
+            # Consider the selected elements as the candidate for next concept
+            candidates = list(filter_candidates)
+    
+    # Return the set of filtered candidates after each concept because it seems that the instructions have changed about the output type (a list instead of a single gess)
+    return candidates
+    
+    # concept = ''
+    # return concept
