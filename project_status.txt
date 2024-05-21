@@ -1,0 +1,15 @@
+Current status:
+
+The decode function in the decoder.py file is almost working. 
+
+The components are:
+- Retrieving the natural language formulation of the codes.
+- A loop on each list of codes (each color in the board game).
+- For each color we ask the model to give a suggestion of "expression" that could correspond to the codes.
+- We partition the current candidates into chunks to make the job easier for the model
+- For each subset of candidates, we ask the model to 1) filter the subset given the code, 2) filter the subset based on the "expression".
+- We consider both this filtered sets as candidates for the next iteration of the codes loop
+
+The missing pieces are:
+- The implementation of the function `ask_OLLAMA` that take a prompt as input and is supposed to output a list of words / expressions. So it need some work to get the list from the output of the model.
+- A way to order the final firlterd candidates at the end if needed.
