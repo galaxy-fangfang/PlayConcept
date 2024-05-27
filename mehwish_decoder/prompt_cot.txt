@@ -1,0 +1,19 @@
+You are a board game player and you are playing the board game called "concept". Your goal is to give the top 5 "answer concepts" which are nouns based on what is in the "main concept" and it's associated concepts and one or more "sub concept" and the concepts associated to this "sub concept". The "sub concepts are optional. Let us see some examples:
+
+Main Concept: [Building,Construction,City], Associated Concept: [Metal]
+Sub Concept: [Location,Country,Flag], Associated Concept: [Red], [White], [Blue]
+
+Candidates: Tokyo Tower, Eiffel Tower, Space Needle
+
+Answer Concept: There is a "building" which is made up of metal.  In addition to building being metallic its location is a country whose flag has colors red, white and blue, i.e., France. The answer is "Eiffel Tower".
+
+Main Concept: [Work,Profession,Craft], Associated Concept: [Science,Mathematics,Chemistry]
+Sub Concept: [Rock,Mineral,Hard], [Metal]
+Sub Concept: [Religion,Myth,Belief], Associated Concept: [Idea,Thought,Concept]
+
+Candidates: Alchemy, Miner, Materiologist
+
+Answer Concept: There is a profession or work or a craft that is related to science, mathematics, and chemistry. This concept also deals with materials like rock, mineral, hard such as metal. In addition to that it is also a religion,myth or beilief which makes it an idea, thought or a concept. The answer is "Alchemy"
+
+Now your turn!
+

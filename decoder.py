@@ -1,4 +1,4 @@
-from decoderutils.utils import base_prompt, base_prompt_with_expression, expression_prompt, get_words, partition_candidates, encode
+from decoderutils.utils import get_words, partition_candidates, encode
 from langchain.llms import Ollama
 ollama = Ollama(base_url='http://localhost:11434', model="llama2")
 
