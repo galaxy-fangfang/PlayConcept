@@ -8,6 +8,8 @@ def prompt_llama2(codes):
 
 	#call function to get lists of concepts from starting from the code
 
+	#for i in codes:
+	#	prompt_1 = '''Select the one element of this list that best fit a "'''+Location,Country,Flag" which is "'''+Water,Liquid,Aquatic+ and ''"''Huge,Wider,Longer":'''
 
 	#print(ollama("given the main concept 'food' and sub concepts 'animal', 'fly', 'yellow' and 'black' which of the following candidates is most likely the output concept: apple, honey or house. please choose one conept from the list of output concepts. "))
 	#print(ollama("Given the main concept 'food' and sub concepts 'animal', 'fly', 'yellow' and 'black' which of the following candidates is most likely the output concept: apple, honey or house. Please choose one conept from the list of output concepts and print in a json format. "))
