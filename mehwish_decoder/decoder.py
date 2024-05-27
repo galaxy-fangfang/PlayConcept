@@ -1,7 +1,9 @@
 from decoderutils.utils import get_words, partition_candidates, encode
 import json
 from langchain.llms import Ollama
-ollama = Ollama(base_url='http://localhost:11434', model="llama2")
+import warnings
+
+
 
 
 def ask_llama(prompt):
@@ -17,7 +19,6 @@ def code2words(codes):
         codes = [line.split(",") for line in lines]
         #print(codes)
     
-    # Translate the codes into the corresponding words
     nl_codes = get_words(code, codes)
     return nl_codes
 
@@ -34,7 +35,7 @@ def get_candidates(json_data,words):
             candidates.append(json_data[i[0]])
         else:
             print(f"Key '{i[0]}' not found in the JSON data.")
-    #print(candidates)
+
     all_candidates = set()
     for lst in candidates:
         all_candidates = all_candidates.union(set(lst))
@@ -43,11 +44,9 @@ def get_candidates(json_data,words):
 
 def extract_concepts(code):
 
-    # Extract main concept and associated concepts from the first sublist
     main_concept = code[0][0].split(',')
     associated_concepts = [sub.split(',') for sub in code[0][1:]]
 
-    # Print main concept and associated concepts
     prompt = f"Main Concept: {main_concept} \n "
     if associated_concepts:
         for associated_concept in associated_concepts:
@@ -95,30 +94,32 @@ def decode(code, candidates):
     # concept = ''
     # return 
 
-    print(code)
-    print(candidates)
-
     with open('prompt_cot.txt', 'r') as file:
-        # Read the contents of the file into a variable
         file_contents = file.read()
 
-        # Now, the variable file_contents contains the contents of the text file
     prompt_template = file_contents
 
     candidates_final = ', '.join(candidates)
-    final_prompt = prompt_template + extract_concepts(code)+"\n Choose from the following candidates: "+ candidates_final + "\n Answer Concept: ?"
+    final_prompt = prompt_template + extract_concepts(code)+"\n Choose top5 answer concepts from the following candidates: "+ candidates_final + "\n Answer Concept: ?"
 
     answer = ask_llama(final_prompt)
 
+    print("********************PROMPT START********************")
     print(final_prompt)
-
+    print("********************PROMPT END********************")
+    print("*****")
+    print("*****")
+    print("Answer: ")
     print(answer)
 
 
 if __name__ == "__main__":
 
-    # Path to the JSON file
-    file_path = 'candidates.json'
+    #warnings.filterwarnings("ignore")
+    ollama = Ollama(base_url='http://localhost:11434', model="llama2")
+
+
+    file_path = 'candidates_075.json'
     json_data = read_json_file(file_path)
 
     #candidates = ['Apple', 'Honey', 'House']
@@ -127,5 +128,4 @@ if __name__ == "__main__":
     words = code2words(code)
     candidates = get_candidates(json_data,words)
 
-    #print(candidates)
     decode(words,candidates)
