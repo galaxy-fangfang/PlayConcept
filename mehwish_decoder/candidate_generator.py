@@ -24,7 +24,7 @@ def get_cosine_similarity(vec1, vec2):
    norm_sim = (sim + 1) / 2
    return norm_sim
 
-def find_similar_words(d1, d2, threshold=0.75):
+def find_similar_words(d1, d2, threshold=0.7):
    result = {}
 
    for word1, vec1 in d1.items():
@@ -35,7 +35,7 @@ def find_similar_words(d1, d2, threshold=0.75):
         	#print(len(vec1))
         	#print(len(vec2))
         	similarity = get_cosine_similarity(vec1, vec2)
-        	print(similarity)
+        	#print(similarity)
         	if similarity > best_similarity:
         		best_similarity = similarity
         		best_match.append(word2)
@@ -52,32 +52,14 @@ dict_codes = {}
 ##CONCEPTS##
 lines = []
 
-#wiki2vec = Wikipedia2Vec.load('enwiki_20180420_win10_100d.pkl') ##filename
 
 with open('list.txt', 'r') as file:
 	embedding = []
-	#lines = [line.strip() for line in file]
 	for line in file:
-		#try:
-		#	embedding = wiki2vec.get_word_vector(line.replace("\n",""))
-		#except Exception as e:
-		#	print(e)
-
-		#if embedding:
-		#	dict_concepts[line.replace("\n","")] = embedding
-		#else:
-		#np.random.rand(100)
 		embedding = ollama_embedding.get_query_embedding(line.replace("\n",""))
 		dict_concepts[line.replace("\n","")] = embedding
 
-		#print(line)
-		#print(embedding)
 
-
-
-
-
-    	#embedding = ollama_embedding.get_query_embedding(line.replace("\n",""))
     	
 
 
@@ -85,42 +67,24 @@ with open('list.txt', 'r') as file:
 processed_rows = []
 
 with open("codes.csv", "r") as csv_file:
-    # Create a CSV reader object
     csv_reader = csv.reader(csv_file)
     
     for row in csv_reader:
     	embedding = []
-    	# remove the first column
     	row = row[1:]
     	vectors = [ollama_embedding.get_query_embedding(token) for token in row]
     	embedding = np.mean(vectors, axis=0)
-    	##average_vector = np.mean(vectors, axis=0)
     	sentence = ' '.join(row) #activate for ollama embeddings
-    	#try:
-    	#	embedding = wiki2vec.get_word_vector(sentence)
-    	#except Exception as e:
-    	#	print(e)
-
-    	#if embedding:
     	dict_codes[sentence] = embedding
-    	#else:
-    	#	np.random.rand(100)
-    	#	embedding = ollama_embedding.get_query_embedding(sentence)
-    	#	dict_codes[sentence] = embedding
-    		#embedding = ollama_embedding.get_query_embedding(sentence)
-    		#dict_codes[sentence] = embedding
 
-#print(dict_codes)
-#print(dict_concepts)
+
+
 selected_concepts = find_similar_words(dict_codes, dict_concepts)
 
-print(len(selected_concepts))
+#print(len(selected_concepts))
 
 # write the dict to a json file
-with open('candidates_075.json', 'w') as json_file:
+#candidate generator on threshold 0.6,0.7,0.75,0.8
+with open('candidates_07.json', 'w') as json_file:
     json.dump(selected_concepts, json_file, indent=4)
-
-
- #pip install wikipedia2vec
- #download pretrained model from: https://wikipedia2vec.github.io/wikipedia2vec/pretrained/ 
 
