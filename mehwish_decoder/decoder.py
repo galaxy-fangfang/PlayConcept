@@ -106,9 +106,11 @@ def decode(code, candidates):
     prompt_template = file_contents
 
     candidates_final = ', '.join(candidates)
-    final_prompt = prompt_template + extract_concepts(code)+"\n Candidates: "+ candidates_final + "\n Answer Concept: ?"
+    final_prompt = prompt_template + extract_concepts(code)+"\n Choose from the following candidates: "+ candidates_final + "\n Answer Concept: ?"
 
     answer = ask_llama(final_prompt)
+
+    print(final_prompt)
 
     print(answer)
 

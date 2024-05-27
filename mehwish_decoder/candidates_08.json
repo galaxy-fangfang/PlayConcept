@@ -1,0 +1,222 @@
+{
+    "Object,Thing,Package": [],
+    "Person,Family,Group": [],
+    "Female,Woman,Wife,Feminine": [],
+    "Male,Man,Husband,Masculine": [],
+    "Work,Profession,Craft": [
+        "Continent",
+        "Evolution"
+    ],
+    "Recreation,Sport,Activity": [],
+    "Wildlife,Animal": [
+        "Animal"
+    ],
+    "Flora,Nature,Plant": [
+        "Universe"
+    ],
+    "Literature,Writing,Book": [],
+    "Music,Song,Note": [],
+    "Theater,Film,Camera": [],
+    "Arts,Sculpture,Painting,Drawing,Comics": [
+        "Antarctica",
+        "Australia",
+        "Crusades"
+    ],
+    "Television,Broadcast,Series": [],
+    "Title,Brand,Name": [
+        "Chair"
+    ],
+    "Idea,Thought,Concept": [
+        "Evolution"
+    ],
+    "Expression,Quote,Speak,Word": [
+        "Continent",
+        "Evolution",
+        "Universe"
+    ],
+    "Location,Country,Flag": [
+        "Continent"
+    ],
+    "Building,Construction,City": [],
+    "Date,Event,Daytime": [],
+    "Holidays,Birthday,Celebration": [
+        "Antarctica",
+        "Battle of Waterloo",
+        "Crusades"
+    ],
+    "Watercraft,Maritime,Swim": [
+        "Swimming"
+    ],
+    "Airborne,vehicle,Airline,Fly": [],
+    "Land,vehicle,Car,Ride": [],
+    "Tools,Construction": [
+        "Crusades",
+        "Evolution",
+        "Industrial Revolution"
+    ],
+    "Games,Toys,Youth": [],
+    "Clothing,Accessories,Costume": [],
+    "Food,Nutrition,Edible": [],
+    "Home,Interior,Domestic": [],
+    "Reality,History": [
+        "Alexander the Great",
+        "Alfred the Great",
+        "Ancient Egypt",
+        "Antarctica",
+        "Crusades",
+        "Evolution"
+    ],
+    "Fictional,Imaginary,Wish": [],
+    "Baby,Child,Young,New": [],
+    "Adult,Old,Ancient,Past": [],
+    "Slow,Lengthy,Turtle": [],
+    "Fast,Lively,Hare": [],
+    "Defense,Protection,Wall": [
+        "Evolution"
+    ],
+    "Conflict,Weapon,Fight": [
+        "Antarctica",
+        "Australia",
+        "Brazil",
+        "Continent",
+        "Crusades",
+        "Evolution"
+    ],
+    "Life,Heart,Love": [
+        "Australia",
+        "Japan",
+        "Universe"
+    ],
+    "Death,Evil,Disease": [],
+    "Joyous,Positive": [],
+    "Sad,Negative": [],
+    "Electronics,Computer": [],
+    "Mechanical,Industrial": [],
+    "Money,Rich,Expensive": [],
+    "Time,Duration": [],
+    "Religion,Myth,Belief": [
+        "Ancient Egypt",
+        "Compassion",
+        "Crusades",
+        "Evolution"
+    ],
+    "Power,Politics": [
+        "Asia",
+        "Australia",
+        "Italy",
+        "Power"
+    ],
+    "Science,Mathematics,Chemistry": [
+        "Photosynthesis"
+    ],
+    "Medical,Drug,Cure": [],
+    "Head,Face": [],
+    "Arm,Hand": [],
+    "Torso,Stomach": [],
+    "Leg,Foot": [],
+    "Ear,Sound,Hear": [],
+    "Nose,Odor,Smell": [],
+    "Eye,View,Watch": [],
+    "Mouth,Flavor,Eat": [],
+    "Cloud,Rain,Snow,Cold": [],
+    "Lightning,Electricity,Storm,Anger": [
+        "Lightning"
+    ],
+    "Night,Evening,Moon": [
+        "Moon"
+    ],
+    "Sun,Heat,Light,Daytime": [
+        "Sun"
+    ],
+    "Fire,Burn,Heat": [],
+    "Water,Liquid,Aquatic": [],
+    "Air,Wind,Blow": [],
+    "Earth,Dirt,Grow": [
+        "Earth"
+    ],
+    "Rock,Mineral,Hard": [],
+    "Wood": [],
+    "Metal": [],
+    "Fabric": [],
+    "Plastic,Rubber": [],
+    "Paper,Sheet": [],
+    "Opposed,Contrary,Inverse": [],
+    "Break,Separate,Half": [],
+    "Fragment,Multitude,Powder": [
+        "Antarctica",
+        "Australia",
+        "Avatar",
+        "Continent",
+        "Evolution",
+        "Universe"
+    ],
+    "Part,Bit,Piece": [],
+    "Inside,Internal": [],
+    "Grid,Network,Prison": [],
+    "Zero,Nothing,Null": [],
+    "Unity,One": [
+        "Australia",
+        "Japan"
+    ],
+    "Straight,line,Smooth,Rise": [],
+    "Curve,Arc": [],
+    "Cross,Intersection,Addition": [
+        "Continent",
+        "Evolution"
+    ],
+    "Broken,line,Sharp,Uneven": [],
+    "Spiral,Intoxication,Madness,Coil": [
+        "Antarctica",
+        "Caligula",
+        "Continent",
+        "Crusades",
+        "Divine Comedy",
+        "Evolution"
+    ],
+    "Sinusoidal,Ripple,Hair": [],
+    "Ring,Cycle": [],
+    "Circle,Button": [],
+    "Triangle": [],
+    "Star": [],
+    "Rectangle,Square": [],
+    "Flat": [],
+    "Cube,Brick": [],
+    "Sphere": [
+        "Universe"
+    ],
+    "Pyramid": [],
+    "Cylinder": [],
+    "Cone": [],
+    "Hollow,Hole,Pierced": [],
+    "Tall,Greater,High": [],
+    "Small,Lower,Below": [],
+    "Huge,Wider,Longer": [],
+    "Skinny,Closer,Brief": [
+        "Divine Comedy"
+    ],
+    "Top,Up,Mount": [],
+    "Low,Down,Under": [],
+    "Left,First,Before": [
+        "Australia"
+    ],
+    "Right,End,After": [],
+    "Turn,Surround,Cycle": [
+        "Evolution"
+    ],
+    "Use,Activate,Verb": [
+        "Continent",
+        "Universe"
+    ],
+    "Red,": [],
+    "Orange": [],
+    "Pink": [],
+    "Brown": [],
+    "Yellow": [],
+    "Green": [],
+    "Black": [],
+    "Gray": [],
+    "Blue": [],
+    "Purple": [],
+    "White": [],
+    "Clear,Invisible": []
+}

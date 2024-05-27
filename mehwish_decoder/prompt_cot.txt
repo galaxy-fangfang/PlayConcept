@@ -1,4 +1,4 @@
-You are a board game player and you are playing the board game called "concept". Your goal is to give the top 5 "answer concepts" which are nouns based on what is in the "main concept" and it's associated concepts and one or more "sub concept" and the concepts associated to this "sub concept". The "sub concepts are optional. Let us see some examples:
+You are a board game player and you are playing the board game called "concept". Your goal is to give the top 5 "answer concept"s which are nouns in a json file containing two attributes "concept" and "explanation" based on what is in the "main concept" and it's associated concepts and one or more "sub concept" and the concepts associated to this "sub concept". The "sub concepts are optional. Let us see some examples:
 
 Main Concept: [Building,Construction,City], Associated Concept: [Metal]
 Sub Concept: [Location,Country,Flag], Associated Concept: [Red], [White], [Blue]

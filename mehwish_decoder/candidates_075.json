@@ -1,0 +1,500 @@
+{
+    "Object,Thing,Package": [
+        "Continent"
+    ],
+    "Person,Family,Group": [
+        "Continent"
+    ],
+    "Female,Woman,Wife,Feminine": [
+        "David Beckham",
+        "Giraffe"
+    ],
+    "Male,Man,Husband,Masculine": [
+        "Brad Pitt"
+    ],
+    "Work,Profession,Craft": [
+        "Ancient Egypt",
+        "Antarctica",
+        "Australia",
+        "Chair",
+        "Continent",
+        "Evolution"
+    ],
+    "Recreation,Sport,Activity": [
+        "Decathlon",
+        "Swimming"
+    ],
+    "Wildlife,Animal": [
+        "Animal"
+    ],
+    "Flora,Nature,Plant": [
+        "Alexander the Great",
+        "Antarctica",
+        "Japan",
+        "Universe"
+    ],
+    "Literature,Writing,Book": [
+        "Bible",
+        "Divine Comedy",
+        "Photosynthesis"
+    ],
+    "Music,Song,Note": [
+        "Avatar",
+        "Continent",
+        "Divine Comedy"
+    ],
+    "Theater,Film,Camera": [
+        "Decathlon"
+    ],
+    "Arts,Sculpture,Painting,Drawing,Comics": [
+        "AC/DC",
+        "Abraham Lincoln",
+        "Adolf Hitler",
+        "Alan Turing",
+        "Alexander the Great",
+        "Ancient Egypt",
+        "Antarctica",
+        "Australia",
+        "Crusades"
+    ],
+    "Television,Broadcast,Series": [
+        "Decathlon"
+    ],
+    "Title,Brand,Name": [
+        "Alfred the Great",
+        "Asia",
+        "Australia",
+        "Avatar",
+        "Chair"
+    ],
+    "Idea,Thought,Concept": [
+        "Alan Turing",
+        "Antarctica",
+        "Avatar",
+        "Continent",
+        "Evolution"
+    ],
+    "Expression,Quote,Speak,Word": [
+        "Alan Turing",
+        "Alexander the Great",
+        "Antarctica",
+        "Australia",
+        "Avatar",
+        "Continent",
+        "Evolution",
+        "Universe"
+    ],
+    "Location,Country,Flag": [
+        "Alexander the Great",
+        "Antarctica",
+        "Australia",
+        "Continent"
+    ],
+    "Building,Construction,City": [
+        "Antarctica",
+        "Asia",
+        "Australia",
+        "Canada",
+        "China"
+    ],
+    "Date,Event,Daytime": [],
+    "Holidays,Birthday,Celebration": [
+        "AC/DC",
+        "Abraham Lincoln",
+        "Adolf Hitler",
+        "Alcatraz Federal Penitentiary",
+        "Alexander the Great",
+        "Alfred the Great",
+        "Ancient Egypt",
+        "Antarctica",
+        "Battle of Waterloo",
+        "Crusades"
+    ],
+    "Watercraft,Maritime,Swim": [
+        "Atlantic Ocean",
+        "Pacific Ocean",
+        "Swimming"
+    ],
+    "Airborne,vehicle,Airline,Fly": [
+        "China"
+    ],
+    "Land,vehicle,Car,Ride": [],
+    "Tools,Construction": [
+        "Alan Turing",
+        "Ancient Egypt",
+        "Antarctica",
+        "Australia",
+        "Crusades",
+        "Evolution",
+        "Industrial Revolution"
+    ],
+    "Games,Toys,Youth": [
+        "Australia",
+        "Crusades"
+    ],
+    "Clothing,Accessories,Costume": [
+        "Ancient Egypt",
+        "Antarctica",
+        "Australia",
+        "Byzantine Empire",
+        "Continent",
+        "Crusades",
+        "Industrial Revolution"
+    ],
+    "Food,Nutrition,Edible": [
+        "Coffee"
+    ],
+    "Home,Interior,Domestic": [
+        "Canada",
+        "China",
+        "New Zealand",
+        "United Kingdom"
+    ],
+    "Reality,History": [
+        "Abraham Lincoln",
+        "Adolf Hitler",
+        "Alan Turing",
+        "Alexander the Great",
+        "Alfred the Great",
+        "Ancient Egypt",
+        "Antarctica",
+        "Crusades",
+        "Evolution"
+    ],
+    "Fictional,Imaginary,Wish": [],
+    "Baby,Child,Young,New": [
+        "Animal"
+    ],
+    "Adult,Old,Ancient,Past": [],
+    "Slow,Lengthy,Turtle": [
+        "Giraffe"
+    ],
+    "Fast,Lively,Hare": [
+        "Bear"
+    ],
+    "Defense,Protection,Wall": [
+        "Adolf Hitler",
+        "Alexander the Great",
+        "Antarctica",
+        "Australia",
+        "Evolution"
+    ],
+    "Conflict,Weapon,Fight": [
+        "Adolf Hitler",
+        "Alan Turing",
+        "Alexander the Great",
+        "Ancient Egypt",
+        "Antarctica",
+        "Australia",
+        "Brazil",
+        "Continent",
+        "Crusades",
+        "Evolution"
+    ],
+    "Life,Heart,Love": [
+        "Adolf Hitler",
+        "Alexander the Great",
+        "Antarctica",
+        "Australia",
+        "Japan",
+        "Universe"
+    ],
+    "Death,Evil,Disease": [
+        "Great Depression",
+        "Guilt"
+    ],
+    "Joyous,Positive": [],
+    "Sad,Negative": [],
+    "Electronics,Computer": [],
+    "Mechanical,Industrial": [],
+    "Money,Rich,Expensive": [
+        "China",
+        "Coffee"
+    ],
+    "Time,Duration": [
+        "Battle of Waterloo",
+        "Continent",
+        "Evolution"
+    ],
+    "Religion,Myth,Belief": [
+        "Abraham Lincoln",
+        "Adolf Hitler",
+        "Alan Turing",
+        "Alexander the Great",
+        "Alfred the Great",
+        "Ancient Egypt",
+        "Compassion",
+        "Crusades",
+        "Evolution"
+    ],
+    "Power,Politics": [
+        "Adolf Hitler",
+        "Alexander the Great",
+        "Antarctica",
+        "Asia",
+        "Australia",
+        "Italy",
+        "Power"
+    ],
+    "Science,Mathematics,Chemistry": [
+        "Alan Turing",
+        "Ancient Egypt",
+        "Antarctica",
+        "Crusades",
+        "Divine Comedy",
+        "Evolution",
+        "French Revolution",
+        "Gray's Anatomy",
+        "Photosynthesis"
+    ],
+    "Medical,Drug,Cure": [],
+    "Head,Face": [
+        "Australia",
+        "Chair",
+        "Continent"
+    ],
+    "Arm,Hand": [],
+    "Torso,Stomach": [
+        "Antarctica",
+        "Coffee",
+        "Continent",
+        "Flying Spaghetti Monster",
+        "Himalayas",
+        "Pluto",
+        "Pompeii",
+        "Universe"
+    ],
+    "Leg,Foot": [],
+    "Ear,Sound,Hear": [
+        "Chair"
+    ],
+    "Nose,Odor,Smell": [
+        "Australia",
+        "Avatar",
+        "Bear",
+        "Big Ben",
+        "Continent",
+        "Guilt"
+    ],
+    "Eye,View,Watch": [
+        "Evolution"
+    ],
+    "Mouth,Flavor,Eat": [
+        "Australia",
+        "Calm",
+        "Continent",
+        "Evolution"
+    ],
+    "Cloud,Rain,Snow,Cold": [
+        "Bear",
+        "Earth"
+    ],
+    "Lightning,Electricity,Storm,Anger": [
+        "Adolf Hitler",
+        "Alexander the Great",
+        "Amazon River",
+        "Antarctica",
+        "Australia",
+        "Lightning"
+    ],
+    "Night,Evening,Moon": [
+        "Amazon River",
+        "Beach",
+        "Earth",
+        "Moon"
+    ],
+    "Sun,Heat,Light,Daytime": [
+        "Earth",
+        "Power",
+        "Sun"
+    ],
+    "Fire,Burn,Heat": [
+        "Power"
+    ],
+    "Water,Liquid,Aquatic": [
+        "Ocean"
+    ],
+    "Air,Wind,Blow": [
+        "Power"
+    ],
+    "Earth,Dirt,Grow": [
+        "Compassion",
+        "Earth"
+    ],
+    "Rock,Mineral,Hard": [
+        "Glass"
+    ],
+    "Wood": [],
+    "Metal": [],
+    "Fabric": [
+        "Continent"
+    ],
+    "Plastic,Rubber": [],
+    "Paper,Sheet": [],
+    "Opposed,Contrary,Inverse": [],
+    "Break,Separate,Half": [],
+    "Fragment,Multitude,Powder": [
+        "Abraham Lincoln",
+        "Adolf Hitler",
+        "Alexander the Great",
+        "Antarctica",
+        "Australia",
+        "Avatar",
+        "Continent",
+        "Evolution",
+        "Universe"
+    ],
+    "Part,Bit,Piece": [
+        "Continent"
+    ],
+    "Inside,Internal": [],
+    "Grid,Network,Prison": [
+        "Power"
+    ],
+    "Zero,Nothing,Null": [],
+    "Unity,One": [
+        "Abraham Lincoln",
+        "Adolf Hitler",
+        "Alexander the Great",
+        "Antarctica",
+        "Australia",
+        "Japan"
+    ],
+    "Straight,line,Smooth,Rise": [
+        "Continent",
+        "Evolution"
+    ],
+    "Curve,Arc": [
+        "Antarctica",
+        "Australia",
+        "Avatar",
+        "Continent",
+        "Roundnet",
+        "Universe"
+    ],
+    "Cross,Intersection,Addition": [
+        "Adolf Hitler",
+        "Alan Turing",
+        "Alexander the Great",
+        "Alpha Centauri",
+        "Ancient Egypt",
+        "Antarctica",
+        "Arc de Triomphe",
+        "Australia",
+        "Continent",
+        "Evolution"
+    ],
+    "Broken,line,Sharp,Uneven": [
+        "Milky Way"
+    ],
+    "Spiral,Intoxication,Madness,Coil": [
+        "AC/DC",
+        "Adolf Hitler",
+        "Alan Turing",
+        "Alexander the Great",
+        "Alfred the Great",
+        "Antarctica",
+        "Caligula",
+        "Continent",
+        "Crusades",
+        "Divine Comedy",
+        "Evolution"
+    ],
+    "Sinusoidal,Ripple,Hair": [
+        "Cheetah",
+        "China",
+        "Milky Way",
+        "Prometheus"
+    ],
+    "Ring,Cycle": [
+        "Roundnet"
+    ],
+    "Circle,Button": [
+        "Australia",
+        "Avatar",
+        "Continent",
+        "Roundnet",
+        "Universe"
+    ],
+    "Triangle": [],
+    "Star": [],
+    "Rectangle,Square": [
+        "Continent",
+        "Eclipse",
+        "Universe"
+    ],
+    "Flat": [],
+    "Cube,Brick": [],
+    "Sphere": [
+        "Avatar",
+        "Continent",
+        "Universe"
+    ],
+    "Pyramid": [
+        "Continent"
+    ],
+    "Cylinder": [],
+    "Cone": [],
+    "Hollow,Hole,Pierced": [],
+    "Tall,Greater,High": [],
+    "Small,Lower,Below": [],
+    "Huge,Wider,Longer": [],
+    "Skinny,Closer,Brief": [
+        "Alexander the Great",
+        "Alfred the Great",
+        "Antarctica",
+        "Australia",
+        "Crusades",
+        "Divine Comedy"
+    ],
+    "Top,Up,Mount": [
+        "Japan"
+    ],
+    "Low,Down,Under": [],
+    "Left,First,Before": [
+        "Adolf Hitler",
+        "Antarctica",
+        "Australia"
+    ],
+    "Right,End,After": [
+        "Australia",
+        "Japan"
+    ],
+    "Turn,Surround,Cycle": [
+        "Antarctica",
+        "Australia",
+        "Calm",
+        "Continent",
+        "Evolution"
+    ],
+    "Use,Activate,Verb": [
+        "Adolf Hitler",
+        "Alexander the Great",
+        "Antarctica",
+        "Australia",
+        "Continent",
+        "Universe"
+    ],
+    "Red,": [],
+    "Orange": [
+        "China",
+        "France",
+        "Mexico"
+    ],
+    "Pink": [],
+    "Brown": [
+        "Australia",
+        "Brazil",
+        "Israel"
+    ],
+    "Yellow": [],
+    "Green": [],
+    "Black": [],
+    "Gray": [
+        "Bear"
+    ],
+    "Blue": [],
+    "Purple": [],
+    "White": [],
+    "Clear,Invisible": []
+}
