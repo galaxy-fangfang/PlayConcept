@@ -104,6 +104,9 @@ def decode(code, candidates):
 
     answer = ask_llama(final_prompt)
 
+    formatting_prompt = answer + "\nInstruction: Can you format your answer in a python list. Add only the answers."
+    formated_answer = ask_llama(formatting_prompt)
+
     print("********************PROMPT START********************")
     print(final_prompt)
     print("********************PROMPT END********************")
@@ -111,6 +114,10 @@ def decode(code, candidates):
     print("*****")
     print("Answer: ")
     print(answer)
+
+    print("*****")
+    print("FORMATTED ANSWER:")
+    print(formated_answer)
 
 
 if __name__ == "__main__":
